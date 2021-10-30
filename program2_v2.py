@@ -7,11 +7,12 @@ def getApple():
     _apple= input("Please indicate how many apples you want to purchase: ")
     return _apple
 
-
+def getOrange():
+    _orange= input("Please indicate how many oranges you want to purchase: ")
 
 #steps
 #1. state price of apple.
 appleprice= getApple()
 #2. state price of orange.
-
+orangeprice= getOrange()
 #3. display total amount.
