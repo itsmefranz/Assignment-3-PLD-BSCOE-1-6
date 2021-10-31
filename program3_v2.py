@@ -1,6 +1,6 @@
 
 def getMoney():
-    amountM= int(input("How much money do you have? "))
+    amountM= float(input("How much money do you have? "))
     return amountM
 
 def getApple():
